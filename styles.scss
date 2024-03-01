@@ -79,7 +79,7 @@ body {
     .attribution {
         color: $White;
         font-size: 16px;
-        text-align: justify-center;
+        text-align: center;
         padding: 10px;
         a {
             color: hsl(228, 45%, 44%);
@@ -89,5 +89,5 @@ body {
 
 @font-face {
     font-family: inter;
-    src: url(./assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+    src: url(./assets/fonts/Inter-VariableFont_slnt,wght.ttf);
 }
