@@ -1,0 +1,87 @@
+body {
+  background-color: hsl(0, 0%, 8%);
+  font-family: inter;
+  margin: 0;
+}
+body .container {
+  background-color: hsl(0, 0%, 12%);
+  width: 380px;
+  margin: auto;
+  text-align: center;
+  border-radius: 15px;
+  margin-top: 75px;
+}
+body .container .box-image,
+body .container .box-title,
+body .container .box-description,
+body .container .box-links {
+  margin: auto;
+  padding: 0 25px;
+}
+body .container .box-image {
+  padding-top: 30px;
+}
+body .container .box-image img {
+  height: 100px;
+  border-radius: 90px;
+}
+body .container .box-title {
+  padding-top: 20px;
+}
+body .container .box-title h1 {
+  font-size: 26px;
+  font-weight: 600;
+  color: hsl(0, 0%, 100%);
+}
+body .container .box-title p {
+  font-size: 14px;
+  font-weight: 600;
+  color: hsl(75, 94%, 57%);
+}
+body .container .box-description {
+  padding-top: 20px;
+}
+body .container .box-description p {
+  font-weight: 400;
+  color: hsl(0, 0%, 100%);
+}
+body .container .box-links {
+  padding: 15px 40px;
+}
+body .container .box-links div {
+  padding: 10px;
+}
+body .container .box-links div button {
+  background-color: hsl(0, 0%, 20%);
+  font-weight: 700;
+  width: 100%;
+  height: 45px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+body .container .box-links div button a {
+  color: hsl(0, 0%, 100%);
+  text-decoration: none;
+}
+body .container .box-links div button:hover {
+  background-color: hsl(75, 94%, 57%);
+  cursor: pointer;
+  transition: all 0.7s;
+}
+body .attribution {
+  color: hsl(0, 0%, 100%);
+  font-size: 16px;
+  text-align: justify-center;
+  padding: 10px;
+}
+body .attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@font-face {
+  font-family: inter;
+  src: url(./assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+/*# sourceMappingURL=styles.css.map */
